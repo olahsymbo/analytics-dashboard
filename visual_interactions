@@ -39,7 +39,7 @@ divBorder = {
              'border-radius': '5px'
             }
 
-encoded_image = base64.b64encode(open(os.path.join(dash_dir, "img/clane.png"), 'rb').read())
+encoded_image = base64.b64encode(open(os.path.join(dash_dir, "img/logo.png"), 'rb').read())
 
 app.layout = html.Div(style={'backgroundColor': colors['background'], 
                              "margin": "auto"}, children=[
